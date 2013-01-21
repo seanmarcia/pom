@@ -9,7 +9,7 @@ A simple command line tool (optimized for tmux) for mountain line for counting a
 ### How use it ###
 First of all, install it...
 
-    gem install pommy
+    gem install cli-pomodoro
 
 After installing the gem running it is simple:
 
