@@ -10,7 +10,7 @@ Gem::Specification.new do |gem|
   gem.email         = ["sean@cs.uoregon.edu"]
   gem.description   = %q{Pomodoro Time Tracker Command Line App For Mountain Lion}
   gem.summary       = %q{Pomodoro App}
-  gem.homepage      = ""
+  gem.homepage      = "http://github.com/SeanMarcia/pom"
   gem.add_dependency("terminal-notifier")
   gem.files         = `git ls-files`.split($/)
   gem.executables   = ["pom"] 
