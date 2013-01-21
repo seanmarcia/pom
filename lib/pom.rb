@@ -13,7 +13,7 @@ module Pom
   if options.include?('--help') || options.include?('-h')
     puts "A simple pomodoro timer in ruby."
     puts "Usage:"
-    puts "$ ruby pomodoro.rb [-l INT --t TIME]"
+    puts "$ pom [-l INT --t TIME]"
     puts "INT: number of pomodoros before long break occurs"
     puts "TIME: time (in minutes) of a single pomodoro"
     exit
