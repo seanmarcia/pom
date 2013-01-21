@@ -8,7 +8,7 @@ Gem::Specification.new do |gem|
   gem.version       = Pom::VERSION
   gem.authors       = ["Sean Marcia"]
   gem.email         = ["sean@cs.uoregon.edu"]
-  gem.description   = %q{Pomodoro For Mountain Lion}
+  gem.description   = %q{Pomodoro Time Tracker Command Line App For Mountain Lion}
   gem.summary       = %q{Pomodoro App}
   gem.homepage      = ""
   gem.add_dependency("terminal-notifier")

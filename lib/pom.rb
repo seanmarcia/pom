@@ -13,14 +13,14 @@ module Pom
   if options.include?('--help') || options.include?('-h')
     puts "A simple pomodoro timer in ruby."
     puts "Usage:"
-    puts "$ ruby pomodoro.rb [--longint INT --time TIME]"
+    puts "$ ruby pomodoro.rb [-l INT --t TIME]"
     puts "INT: number of pomodoros before long break occurs"
     puts "TIME: time (in minutes) of a single pomodoro"
     exit
   end
 
   pomodoro_time = 25 # minutes
-  if i = options.index('--time')
+  if i = options.index('-t')
     pomodoro_time = options[i+1].to_i
     if pomodoro_time == 0
       puts "Invalid time specified."
@@ -29,7 +29,7 @@ module Pom
   end
 
   @long_interval = 4 # minutes
-  if i = options.index('--longint')
+  if i = options.index('-l')
     @long_interval = options[i+1].to_i
     if @long_interval == 0
       puts "Invalid interval specified."
