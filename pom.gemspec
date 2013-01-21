@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'pom/version'
 
 Gem::Specification.new do |gem|
-  gem.name          = "pom"
+  gem.name          = "pommy"
   gem.version       = Pom::VERSION
   gem.authors       = ["Sean Marcia"]
   gem.email         = ["sean@cs.uoregon.edu"]
