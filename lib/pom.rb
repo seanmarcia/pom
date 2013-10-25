@@ -76,7 +76,7 @@ module Pom
   end
 
   def finish(chunk)
-    `#{chunk.notifier} "#{chunk.message}"`
+    `#{chunk.notifier} "#{chunk.message}" -sender com.apple.Terminal`
     beep
   end
 
