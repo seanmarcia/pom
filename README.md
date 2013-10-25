@@ -4,8 +4,6 @@
 ### *Important Note* ###
 This pomodoro gem only works on OSX 10.8.1 and later.
 
-This gem is currently not working on OSX Mavericks due to issues with Terminal Notifier. A fix will be pushed as soon as it is.
-
 ### Description ###
 A simple command line tool (optimized for tmux) for mountain line for counting and maintaining your pomodoros.
 
