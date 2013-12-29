@@ -5,7 +5,7 @@
 This pomodoro gem only works on OSX 10.8.1 and later.
 
 ### Description ###
-A simple command line tool (optimized for tmux) for mountain line for counting and maintaining your pomodoros.
+A simple command line tool (optimized for tmux) for mountain lion for counting and maintaining your pomodoros.
 
 ### How use it ###
 First of all, install it:
