@@ -31,7 +31,7 @@ The following will cause pomodoros to be 3 minutes and a 15 minute break to occu
     $ pom -t 3 -l 2
 
 ### Dependencies ###
-This gem relies on the `terminal-nofifier` gem for the growl-like system notifications.
+This gem relies on the [terminal-notifier](https://github.com/alloy/terminal-notifier) gem for the growl-like system notifications.
 
 
 ### Contributing ###
